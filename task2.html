@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        HTML TASK 2
+    </title>
+<style>
+    html{
+        scroll-behavior: smooth;
+    }
+</style>
+
+</head>
+<body>
+    <h1>Student Learning & Feedback portal</h1>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#Learning video">Learning Video</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#Loction">Location</a></li>
+        <li><a href="#feedback">Feedback</a></li>
+ </ul>
+        <h2 id="about">About this portal</h2>
+
+        <p>Welcome to the student learning & feedback portal— a space to learn, explore, and share your educational experiences.
+
+We believe in Learning by Doing. Watch lessons, explore resources, and give your valuable feedback to improve learning for everyone.</p>
+   
+
+<h1 id="courses">Available Courses</h1>
+<p>Here are some popular courses with the prices:</p>
+<table border="1" bgcolor="skyblue">
+    <caption>Our top Courses</caption>
+    <thead>
+        <tr>
+        <th>Course Name</th>
+        <th>Duration</th>
+        <th>Price(in rupees)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>HTML & web structure</td>
+            <td>1 Month</td>
+            <td>2,499</td>
+        </tr>
+        <tr>
+            <td>CSS Styling & Design</td>
+            <td>1.5 Month</td>
+            <td>3,499</td>
+        </tr>
+        <tr>
+            <td>Javascript for begineers</td>
+            <td>2 Month</td>
+            <td>4,999</td>
+        </tr>
+    </tbody>
+</table>
+        <p><b>Note:</b> Students can avail a <mark>10% discount</mark> if they enroll for 2 or more courses!</p>
+
+        <h1 id="Learning video">Watch & Learn</h1>
+        <iframe width="100" height="200" src="https://www.youtube.com/embed/LzqhPlHu2to?si=RJ83SUcc-eA3cVyJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+Watch this tutorial to start your Html journey!
+<hr>
+
+<h1>Learn From This PDF</h1>
+
+<p>You can go through our sample couses material below.It includes basic advanced HTML topics.</p>
+<iframe src="Complete HTML (2).docx - Google Docs (1).pdf" frameborder="0"></iframe>
+<p>If the PDF doesn't load,<a href="Complete HTML (2).docx - Google Docs (1).pdf" download>click here to download</a></p>
+
+<br>
+<h2 id="gallery">Our Learning Gallery</h2>
+
+<img src="icon.png" alt="icon" width="100" height="200">
+<figcaption>HTML- The foundation of the web</figcaption>
+<br>
+<h1 id="Loction">Visit Our Learning Center</h1>
+
+<p>we are located at:</p>
+
+
+
+<iframe src="https://maps.app.goo.gl/HQBuRNBbpVtJytgh7?g_st=aw" frameborder="0" width="500" height="300"></iframe>
+
+<h1>Listen to HTML tips</h1>
+<audio controls>
+    <source src="Monica Transition.mp3" type="audio/mpeg">
+</audio>
+
+<h1 id="feedback">Student feedback form</h1>
+<form action="/" method="get">
+    <fieldset>
+        <legend>Student Information</legend>
+        <label for="name">Full Name:</label>
+        <input type="text" placeholder="Enter your Name" id="name" required>
+        <br><br>
+
+        <label for="email">E-Mail</label>
+        <input type="text" placeholder="Enter your E-mail" id="email" required>
+        <br>
+        <br>
+
+        <label for="course">Select Course:</label>
+        
+        <select name="" id="">
+            <option value="select">Choose the course</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="js">Javascript</option>
+            <option value="react">React.JS</option>
+            <option value="mongo db">Mongo DB</option>
+        </select>
+        <br>
+        <br>
+
+        <label for="date">Jion Date:</label>
+        <input type="date" id="date">
+        <br>
+        <br>
+    </fieldset>
+
+</form>
+
+<form action="/" method="get">
+    <fieldset>
+        <legend>FeedBack Details </legend>
+        <label for="rate">Rate your expericences (1-10):</label>
+        <input type="range" id="rate"><br><br>
+        <br>
+        <label for="like">Would you recommend the course?</label>
+        <input type="radio" id="like" name="like">Yes
+        <input type="radio" id="like" name="like">No
+        <br><br>
+
+       <label for="file">Upload your Project Screenshot:</label>
+       <input type="file">
+       <br><br>
+
+       <label for="text">Your comments:</label><br>
+       <textarea placeholder="Write your feedback...."></textarea>
+    </fieldset>
+</form>
+<hr>
+<button type="submit">Submit Feedback</button>
+<button type="reset">Clear Form</button><br><br>
+<footer>
+    &copy; 2025 Learning from KodeZ Academy: | All Rights reserved
+    
+</footer>
+
+<p>Follow us on more: <a href="youtube">Youtube</a> | <a href="email">E-Mail Us</a></p>
+
+
+
+
+
+</body>
+</html>
